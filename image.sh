@@ -8,7 +8,7 @@ do
 convert -resize $size $files $files$name.jpg
 done
 else
-size=300
+size=360
 name="_thumbnail"
 for folder in `ls *.jpg`
 do
